@@ -4,6 +4,15 @@
 }
   
 .banner {
-    color: #FFD23F;
-    font-family: sans-serif;
+    color: rgb(20, 235, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.image{
+    background-image: url('https://behrend.psu.edu/sites/behrend/files/styles/callout_component_image/public/weather-collage-3.jpg?itok=jY5V4mN7');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 570px;
+    overflow-y: hidden;
 }
