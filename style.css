@@ -1,18 +1,43 @@
-#city-input, #weather-output {
-    max-width: 400px;
-    margin: 0 auto;
-}
-  
-.banner {
-    color: rgb(20, 235, 255);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
+body{
+    background-image: url('https://behrend.psu.edu/sites/behrend/files/styles/callout_component_image/public/weather-collage-3.jpg?itok=jY5V4mN7');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height:100%;
+    width: 100%;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
 }
 
-.image{
-    background-image: url('https://behrend.psu.edu/sites/behrend/files/styles/callout_component_image/public/weather-collage-3.jpg?itok=jY5V4mN7');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 570px;
-    overflow-y: hidden;
+#city-input {
+    width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
 }
+#weather-output{
+    width: 450px;
+    
+}
+.card-deck{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    width: 250px;
+    margin: 0 auto;
+}
+.banner {
+    color: rgb(52, 88, 91);
+    background: linear-gradient(to left, orange , yellow, green, cyan, blue, violet);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 75px;
+}
+
+
